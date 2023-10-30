@@ -10,12 +10,12 @@ class Quiz(object):
     def chechkAnswer(self,answer):
         self.answer=answer
         if (answer==self.true_choice):
-            print("cevap doğru")
+            print("true")
         else:
-            print("cevap yanlış")        
+            print("false")        
 
 q1=Quiz("Which one is the best food?",["kebab","doner","taco","sushi"],"kebab")
-q2=Quiz("Which country's capital is Berlin?",["Turkey","Usa","Germany","Italy"],"Germany")
+q2=Quiz("Which country's capital Berlin?",["Turkey","Usa","Germany","Italy"],"Germany")
 q3=Quiz("What is the 2*2?",[2,3,4,5],"4")
 q4=Quiz("What is the 2*(5+6)-5",[15,16,17,18],"17")
 
